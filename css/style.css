@@ -966,7 +966,7 @@ body {
 	display: none;
 }
 .faq__inner {
-	margin-bottom: 120px;
+	margin-bottom: 182px;
 	position: relative;
 	z-index: 10;
 }
@@ -1919,14 +1919,16 @@ line-height: 18px;
 		margin-bottom: 30px;
 	}
 	.faq__item {
-		display: block;
-	}
+		flex-direction: column;
+		justify-content: center;
+		}
 	.faq__item label {
 		font-size: 18px;
-		line-height: 26px;
+		line-height: 20px;
+		padding: 0px 10px 6px 46px;
 	}
 	.faq__item label::before {
-		top: 18px;
+		top: -2px;
 	}
 	.faq__content {
 		padding: 15px 20px 0px 22px;
@@ -1942,6 +1944,9 @@ line-height: 18px;
 @media (max-width: 535px){
 	.faq__title.title{
 		margin-bottom: 6px;
+	}
+	.faq__inner{
+		margin-bottom: 86px;
 	}
 	.faq__text-media{
 		margin-bottom: 20px;
