@@ -39,15 +39,24 @@ $(document).ready(function () {
 		slidesToScroll: 3,
 		responsive: [
 			{
-				breakpoint: 1220,
+				breakpoint: 1320,
 				settings: {
 					slidesToShow: 2,
 					slidesToScroll: 2
 				}
 			},
 			{
-				breakpoint: 650,
+				breakpoint: 934,
 				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+						{
+				breakpoint: 426,
+				settings: {
+					arrows: false,
+					dots: true,
 					slidesToShow: 1,
 					slidesToScroll: 1
 				}
@@ -59,6 +68,8 @@ $(document).ready(function () {
 		return false;
 	});
 });
+
+
 
 
 
